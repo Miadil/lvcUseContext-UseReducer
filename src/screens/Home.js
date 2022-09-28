@@ -5,6 +5,7 @@ const Home = () => {
 	const { houses, dispatch } = useContext(HousesContext)
 	return (
 		<div>
+			{console.log(houses)}
 			Houses
 			{houses.map((house) => (
 				<div key={house.id}>

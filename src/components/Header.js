@@ -6,8 +6,9 @@ const Header = () => {
 	return (
 		<header className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
-			<Link to="/">Home</Link>
-			<Link to="/characters">characters</Link>
+			<Link to="/house">house</Link>
+			<Link to="/housev1">housev1</Link>
+			<Link to="/">characters</Link>
 			<Link to="/adminHouses">AdminHouses</Link>
 		</header>
 	)

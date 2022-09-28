@@ -26,7 +26,7 @@ const HousesContextProvider = (props) => {
 			.get("http://localhost:4242/houses")
 			.then(
 				(res) =>
-					console.log(res.data) ||
+					console.log("poulet", res.data) ||
 					dispatch({ type: "FETCH_HOUSES", payload: { data: res.data } })
 			)
 	}, [])
